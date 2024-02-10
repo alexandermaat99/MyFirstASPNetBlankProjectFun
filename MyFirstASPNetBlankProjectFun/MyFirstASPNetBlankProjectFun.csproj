@@ -7,14 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\index.html" />
+    <Content Include="Controllers\HomeController.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Controllers\" />
-    <Folder Include="wwwroot\Models\" />
-    <Folder Include="wwwroot\lib\" />
-    <Folder Include="wwwroot\Views\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>
